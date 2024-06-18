@@ -2,10 +2,6 @@
 import sys
 import time
 import requests
-
-if len(sys.argv) < 2:
-    print("Usage: python script.py <param>")
-    sys.exit(1)
     
 param = sys.argv[1]
 
