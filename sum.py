@@ -34,8 +34,8 @@ time.sleep(res)
 
 url = f"http://localhost:8084/api/resources/updateAvailability/{param}"
 
-# Send the POST request without JSON payload
-response = requests.post(url, headers=headers)
+# Send the PUT request without JSON payload
+response = requests.put(url, headers=headers)
 
 # Check the response status code and print the response
 if response.status_code == 200:
