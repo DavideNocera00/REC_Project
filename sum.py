@@ -44,3 +44,5 @@ else:
     print(f"Failed to send request. Status code: {response.status_code}")
 
 print("Response content:", response.content.decode())
+
+sys.exit(0)
