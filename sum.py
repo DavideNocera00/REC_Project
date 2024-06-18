@@ -33,7 +33,7 @@ print(f"Elapsed time: {elapsed_time} seconds")
 res = 60 - elapsed_time
 time.sleep(res)
 
-url = f"http://localhost:8084/api/resources/updateAvailability/{param}"
+url = f"http://resources-service:8080/api/resources/updateAvailability/{param}"
 
 # Send the PUT request without JSON payload
 response = requests.put(url, headers=headers)
