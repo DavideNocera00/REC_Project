@@ -33,17 +33,17 @@ print(f"Elapsed time: {elapsed_time} seconds")
 res = 60 - elapsed_time
 time.sleep(res)
 
-url = f"http://resources-service:8080/api/resources/updateAvailability/{param}"
+#url = f"http://resources-service:8080/api/resources/updateAvailability/{param}"
 
 # Send the PUT request without JSON payload
-response = requests.put(url, headers=headers)
+#response = requests.put(url, headers=headers)
 
 # Check the response status code and print the response
-if response.status_code == 200:
-    print("Request was successful.")
-else:
-    print(f"Failed to send request. Status code: {response.status_code}")
+#if response.status_code == 200:
+#    print("Request was successful.")
+#else:
+#    print(f"Failed to send request. Status code: {response.status_code}")
 
-print("Response content:", response.content.decode())
+#print("Response content:", response.content.decode())
 
 sys.exit(0)
