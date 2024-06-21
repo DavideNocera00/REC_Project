@@ -6,7 +6,7 @@ import requests
 param = sys.argv[1]
 
 # Define your JWT token
-jwt_token = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW5pc3RyYXRvciIsInVzZXJJZCI6IjY2NWYzMmM2ZDM3YmM0MjA5NTY1N2FmNiIsInN1YiI6Im1hdHRlby5kZXZpdGlzQGdtYWlsLmNvbSIsImlhdCI6MTcxODg5MzY5MiwiZXhwIjoxNzE4OTI5NjkyfQ.V2XvHT--4WmRvaOyxawsLGhRR-BNl8mNE1Xd9zGE_hg"
+jwt_token = "eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQWRtaW5pc3RyYXRvciIsInVzZXJJZCI6IjY2NWYzMmM2ZDM3YmM0MjA5NTY1N2FmNiIsInN1YiI6Im1hdHRlby5kZXZpdGlzQGdtYWlsLmNvbSIsImlhdCI6MTcxODk2NDA4NSwiZXhwIjoxNzE5MDAwMDg1fQ.EEFqcAiTH0LEvoRHkbaoh0ZkmsXxiR7cAbGl5fRtxwI"
 
 # Define the headers
 headers = {
